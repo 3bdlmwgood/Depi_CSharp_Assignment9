@@ -21,10 +21,7 @@ namespace Assignment9
             return B.Price.ToString("C");
         }
 
-        public static DateTime GetPublicationDate(Book B)
-        {
-            return B.PublicationDate;
-        }
+        public static DateTime GetPublicationDate(Book B) => B.PublicationDate;
 
         public static string GetISBN(Book B)
         {
