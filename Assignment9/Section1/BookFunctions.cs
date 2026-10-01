@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment9
+namespace Assignment9.Section1
 {
     public class BookFunctions
     {

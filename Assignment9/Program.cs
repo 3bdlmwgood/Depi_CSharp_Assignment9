@@ -1,9 +1,13 @@
-﻿namespace Assignment9
+﻿using Assignment9.Section1;
+
+namespace Assignment9
 {
     internal class Program
     {
         static void Section1()
         {
+            Console.WriteLine("------ Section 1: Library Engine ------\n");
+            
             List<Book> books = new List<Book>()
             {
                 new Book("978-3-16-148410-0", "The Great Gatsby", new string[] { "F. Scott Fitzgerald, William Faulkner" }, new DateTime(1925, 4, 10), 10.99m),
